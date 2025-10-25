@@ -11,6 +11,7 @@ import foto5 from "@/assets/Foto_Historico5.jpg";
 
 const Context = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number>(0);
   const carouselRef = useRef<HTMLDivElement>(null);
   
   const contextItems = [
@@ -123,7 +124,10 @@ const Context = () => {
               <div
                 key={index}
                 className="flex-shrink-0 w-[300px] md:w-[400px] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
-                onClick={() => setSelectedImage(image)}
+                onClick={() => {
+                  setSelectedImage(image);
+                  setSelectedImageIndex(index);
+                }}
               >
                 <img
                   src={image}
@@ -156,6 +160,34 @@ const Context = () => {
                   className="max-w-full max-h-full object-contain rounded-lg"
                 />
               )}
+              
+              {/* Navigation Buttons */}
+              <Button
+                variant="outline"
+                size="icon"
+                className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white z-20"
+                onClick={() => {
+                  const newIndex = selectedImageIndex > 0 ? selectedImageIndex - 1 : infiniteImages.length - 1;
+                  setSelectedImageIndex(newIndex);
+                  setSelectedImage(infiniteImages[newIndex]);
+                }}
+              >
+                <ChevronLeft className="h-8 w-8" />
+              </Button>
+              
+              <Button
+                variant="outline"
+                size="icon"
+                className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white z-20"
+                onClick={() => {
+                  const newIndex = selectedImageIndex < infiniteImages.length - 1 ? selectedImageIndex + 1 : 0;
+                  setSelectedImageIndex(newIndex);
+                  setSelectedImage(infiniteImages[newIndex]);
+                }}
+              >
+                <ChevronRight className="h-8 w-8" />
+              </Button>
+              
               <Button
                 variant="outline"
                 size="icon"
