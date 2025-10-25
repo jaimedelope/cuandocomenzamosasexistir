@@ -24,14 +24,20 @@ const Author = () => {
               Manuel Martín Sánchez
             </h3>
             <p>
-              Escritor extremeño comprometido con la memoria histórica y las historias de su tierra. 
-              Su narrativa se caracteriza por la profundidad emocional y el retrato fiel de los 
-              personajes que han vivido momentos cruciales de la historia reciente de España.
+            Nacido en Trujillo (Cáceres) en 1964, ha dedicado gran parte de su vida al desarrollo 
+            local y a impulsar proyectos que mejoran la vida en los pueblos. 
+            Licenciado en Derecho por la Universidad de Extremadura y máster en Prevención de 
+            Riesgos Laborales por la Universidad San Pablo CEU, combina una sólida trayectoria 
+            profesional con una mirada profundamente humana hacia el territorio y las personas.
             </p>
             <p>
-              Con "Cuando comenzamos a existir", Manuel nos invita a reflexionar sobre el pasado 
-              para comprender mejor el presente, tejiendo una historia coral que entrelaza lo 
-              personal con lo colectivo, lo íntimo con lo histórico.
+            Su interés por la literatura nace de la curiosidad por lo cotidiano: por esas 
+            historias pequeñas que, sin hacer ruido, sostienen los grandes hechos. Tras años 
+            centrado en su labor pública, durante la pandemia retomó la escritura como una 
+            forma de reencontrarse con su esencia. De ahí nació Cuando comenzamos a existir, 
+            su primera novela, y el deseo de seguir explorando la intrahistoria —esa vida 
+            invisible que late detrás de cada acontecimiento— y de dar voz a quienes 
+            no siempre la tienen.
             </p>
             <p className="text-base italic text-muted-foreground pt-4">
               Editorial Onuba
