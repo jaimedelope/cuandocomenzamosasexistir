@@ -165,7 +165,7 @@ const Context = () => {
               <Button
                 variant="outline"
                 size="icon"
-                className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white z-20"
+                className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/40 hover:bg-white/70 z-20 border-white/50"
                 onClick={() => {
                   const newIndex = selectedImageIndex > 0 ? selectedImageIndex - 1 : infiniteImages.length - 1;
                   setSelectedImageIndex(newIndex);
@@ -178,7 +178,7 @@ const Context = () => {
               <Button
                 variant="outline"
                 size="icon"
-                className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white z-20"
+                className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/40 hover:bg-white/70 z-20 border-white/50"
                 onClick={() => {
                   const newIndex = selectedImageIndex < infiniteImages.length - 1 ? selectedImageIndex + 1 : 0;
                   setSelectedImageIndex(newIndex);
