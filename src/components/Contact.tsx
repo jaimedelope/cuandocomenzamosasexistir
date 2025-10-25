@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Instagram } from "lucide-react";
+import { Mail, Instagram, Facebook } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -13,7 +13,7 @@ const Contact = () => {
           Mantente al día con las últimas noticias sobre el autor, eventos literarios y nuevas publicaciones.
         </p>
         
-        <div className="flex justify-center gap-6 pt-4">
+        <div className="flex justify-center gap-6 pt-4 flex-wrap">
           <Button
             variant="secondary"
             size="lg"
@@ -23,6 +23,18 @@ const Contact = () => {
             <a href="mailto:cuandocomenzamosaexistir@gmail.com" target="_blank" rel="noopener noreferrer">
               <Mail className="w-6 h-6 mr-2" />
               Email
+            </a>
+          </Button>
+          
+          <Button
+            variant="secondary"
+            size="lg"
+            className="font-body"
+            asChild
+          >
+            <a href="https://www.facebook.com/profile.php?id=61582685737219" target="_blank" rel="noopener noreferrer">
+              <Facebook className="w-6 h-6 mr-2" />
+              Facebook
             </a>
           </Button>
           
