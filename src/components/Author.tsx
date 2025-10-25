@@ -34,7 +34,7 @@ const Author = () => {
             Su interés por la literatura nace de la curiosidad por lo cotidiano: por esas 
             historias pequeñas que, sin hacer ruido, sostienen los grandes hechos. Tras años 
             centrado en su labor pública, durante la pandemia retomó la escritura como una 
-            forma de reencontrarse con su esencia. De ahí nació Cuando comenzamos a existir, 
+            forma de reencontrarse con su esencia. De ahí nació <em>Cuando comenzamos a existir</em>, 
             su primera novela, y el deseo de seguir explorando la intrahistoria —esa vida 
             invisible que late detrás de cada acontecimiento— y de dar voz a quienes 
             no siempre la tienen.
