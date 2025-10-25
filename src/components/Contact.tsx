@@ -3,7 +3,7 @@ import { Mail, Instagram, Facebook } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section className="py-20 px-4 bg-primary text-primary-foreground">
+    <section id="social" className="py-20 px-4 bg-primary text-primary-foreground">
       <div className="container max-w-3xl text-center space-y-8">
         <h2 className="font-display text-4xl md:text-5xl font-bold">
           Síguenos en nuestras redes
