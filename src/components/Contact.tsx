@@ -17,7 +17,7 @@ const Contact = () => {
           <Button
             variant="secondary"
             size="lg"
-            className="font-body"
+            className="font-body min-w-[160px]"
             asChild
           >
             <a href="mailto:cuandocomenzamosaexistir@gmail.com" target="_blank" rel="noopener noreferrer">
