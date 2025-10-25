@@ -2,7 +2,7 @@ import fotoAutor from "@/assets/Foto_Autor.jpg";
 
 const Author = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-card to-muted">
+    <section id="author" className="py-20 px-4 bg-gradient-to-b from-card to-muted">
       <div className="container max-w-4xl">
         <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-12 text-center">
           Sobre el autor

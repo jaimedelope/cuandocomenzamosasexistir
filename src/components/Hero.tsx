@@ -23,10 +23,10 @@ const Hero = () => {
               Una novela que retrata un tiempo y unas circunstancias que nos harán reflexionar, 
               sonreír y emocionarnos.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col gap-4 pt-4">
               <Button 
                 size="lg" 
-                className="font-body text-base"
+                className="font-body text-base w-full"
                 onClick={() => scrollToSection("synopsis")}
               >
                 Descubre la historia
@@ -34,11 +34,19 @@ const Hero = () => {
               </Button>
               <Button 
                 size="lg" 
-                variant="outline"
-                className="font-body text-base"
+                className="font-body text-base w-full"
+                onClick={() => scrollToSection("author")}
+              >
+                Conoce al autor
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+              <Button 
+                size="lg" 
+                className="font-body text-base w-full"
                 onClick={() => scrollToSection("buy")}
               >
                 Comprar libro
+                <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </div>
           </div>
