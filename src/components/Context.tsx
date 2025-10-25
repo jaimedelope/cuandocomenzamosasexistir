@@ -26,7 +26,7 @@ const Context = () => {
     },
     {
       icon: Users,
-      title: "Relato Coral",
+      title: "Trama Común",
       description: "Múltiples voces que se entrelazan para narrar una historia de compañerismo, lucha y dignidad.",
     },
   ];
