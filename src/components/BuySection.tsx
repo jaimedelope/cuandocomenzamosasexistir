@@ -33,12 +33,15 @@ const BuySection = () => {
               
               <div className="space-y-3">
                 <Button variant="outline" className="w-full justify-between font-body text-base" asChild>
-                  
-                </Button>
-                
-                <Button variant="outline" className="w-full justify-between font-body text-base" disabled>
-                  Próximamente en Editorial Onuba
-                  <ExternalLink className="w-4 h-4" />
+                  <a
+                    href="https://www.editorialonuba.es/cat%C3%A1logo-novedades/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex w-full items-center justify-between"
+                  >
+                    Comprar en Editorial Onuba
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
                 </Button>
               </div>
             </div>

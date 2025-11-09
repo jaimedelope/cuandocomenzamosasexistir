@@ -27,9 +27,9 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 className="font-body text-base w-full"
-                onClick={() => scrollToSection("synopsis")}
+                onClick={() => scrollToSection("buy")}
               >
-                Descubre la historia
+                Comprar el libro
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button 
